@@ -128,6 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.c" />
     <ClCompile Include="string_operation.c" />
     <ClCompile Include="verbe_analyzer.c" />
   </ItemGroup>
