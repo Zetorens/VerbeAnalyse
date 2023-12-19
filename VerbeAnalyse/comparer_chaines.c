@@ -1,12 +1,12 @@
 #include "comparer_chaines.h"
 #include <stdio.h>
 
-int comparerChaines(const char s1, const char s2)
+int comparerChaines(const char* verbe, const char* verbesIreguliers)
 {
     int i = 0;
-    while (s1[i] == s2[i])
+    while (verbe[i] == verbesIreguliers[i])
     {
-        if (s1[i] == '\0')
+        if (verbe[i] == '\0')
         {
             return 1;
         }
