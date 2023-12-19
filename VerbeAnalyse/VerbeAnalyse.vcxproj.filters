@@ -18,9 +18,15 @@
     <ClCompile Include="string_operation.c">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="verbe_analyzer.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="string_operation.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="verbe_analyzer.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>

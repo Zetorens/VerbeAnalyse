@@ -129,9 +129,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="string_operation.c" />
+    <ClCompile Include="verbe_analyzer.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="string_operation.h" />
+    <ClInclude Include="verbe_analyzer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
