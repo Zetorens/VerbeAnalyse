@@ -6,7 +6,7 @@ int main()
 {
     char verbe[256];
 
-    printf("Donner le verbe : ");
+    printf("Donnez le verbe avec la 1er lettre en Majuscule : ");
     if (scanf("%s", verbe) != 1)
     {
         printf("Impossible d'attribuer le verbe dans le tableau.");
@@ -26,5 +26,4 @@ int main()
     printf("Le verbe %s est du groupe %d.", verbe, vrbgrp);
 
     return 0;
-
 }

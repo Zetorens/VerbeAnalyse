@@ -5,4 +5,4 @@
 
 int length(const char* verbe);
 
-#endif // !STRING_OPERATION_H
+#endif

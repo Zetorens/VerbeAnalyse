@@ -3,4 +3,4 @@
 
 int getGroup(const char* verbe, int vrbLength);
 
-#endif // !STRING_OPERATION_H
+#endif
